@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+  
+    <title>Calculadora de prestamo MS</title>
+</head>
+<body>
+
+
+
+  <div class="contenedor">
+
+    <div class="contenedor-hijo">
+        <h2>Calculadora De Pretamos</h2>
+        <label class="titulo">Digite le monto
+            <input type="text" name="" id="monto" required placeholder="digite le monto del prestamo" class="montoInput">
+         </label>
+        
+     <div class="hijoContenedor">
+        <label class="datoTitulo" >Cantida de mese
+            <input type="text" name="" id="meses" class="inputDatos" required placeholder="Cantidad de mes"> 
+        </label class="datoTitulo">
+        <label>Interes del prestamo
+            <input type="text" name="" id="Interes" class="inputDatos" required placeholder="Interes de prestamos">
+        </label>
+      </div> 
+      
+      <div class="contenedor-btn">
+        <button class="btn"><input type="radio" name="" id=""></button>
+        <button class="btn"><input type="radio" name="" id=""></button>
+
+        <input type="submit" value="Calcular Prestamos" class="btn-2" id="btn">
+
+      </div>
+      
+
+     </div>
+
+     <div class="contenedor-resultado" >
+        <h3 id="cuota"></h3>
+        <div class="resultado" id="contenedor"></div>
+     </div>
+
+  </div> 
+ 
+
+
+  <script src="app.js"></script>
+</body>
+</html>
