@@ -146,3 +146,35 @@ h3{
   position: relative;
   left: 10px;
 }
+
+
+@media (max-width: 600px) {
+    .contenedor {
+       display: contents;
+
+    }
+
+    .contenedor-hijo{
+        display: contents;
+    }
+
+
+     .contenedor-resultado{
+        display: contents;
+        position: relative;
+     }
+
+     .resultado{
+        position: relative;
+        left: 40px;
+        top: 150px;
+        color: black;
+     }
+
+
+    #cuota{
+        position: relative;
+        top: 150px;
+        color: black;
+    }
+  }

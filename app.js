@@ -8,9 +8,6 @@ const resultado = document.getElementById("contenedor");
 const text = document.getElementById("cuota"); 
 
 
-
-
-
 btn.addEventListener("click" , calculadoraPrestamos);
 
 
