@@ -59,6 +59,7 @@ h2{
     border-radius: 10px;
     position: relative;
     top: 20px;
+    font-size: 18px;
 
 }
 
@@ -67,6 +68,7 @@ h2{
     position: relative;
     padding: 10px;
     top: 20px;
+    font-size: 18px;
 }
 
 .datoTitulo{
@@ -76,7 +78,7 @@ h2{
 
 .titulo{
     position: relative;
-    left: 30px;
+    left: 25px;
     top: 40px;
 }
 
@@ -108,11 +110,12 @@ input[type="radio"]{
     padding: 10px;
     background-color: transparent;
     position: relative;
-    top: 190px;
+    top: 170px;
     display: block;
     left: 20px;
     border-radius: 10px;
     background-color: hsl(61, 70%, 52%);
+    cursor: pointer;
 }
 
 .btn:focus{
@@ -136,4 +139,10 @@ h3{
     font-size: 25px ;
     position: relative;
     top: 70px ;
+}
+
+.calcu{
+  font-size: 20px;
+  position: relative;
+  left: 10px;
 }

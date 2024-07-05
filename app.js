@@ -27,7 +27,7 @@ function calculadoraPrestamos(){
     
 
     text.textContent = "Sus prestamos a Pagar "
-    resultado.innerHTML = suma
+    resultado.innerHTML = suma.toFixed(2)
     resultado.style.height = "200px";
     resultado.style.width= "70%";
   
