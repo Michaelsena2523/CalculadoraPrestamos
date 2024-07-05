@@ -18,13 +18,13 @@ function calculadoraPrestamos(){
     let total = 0;
     let suma = 0;
 
-   total = cap * int; 
+   total = cap * int / 100; 
    total = + cap + total;
    suma = total / me;  
     
 
     text.textContent = "Sus prestamos a Pagar "
-    resultado.innerHTML = suma.toFixed(2)
+    resultado.innerHTML = suma.toFixed(2)    
     resultado.style.height = "200px";
     resultado.style.width= "70%";
   

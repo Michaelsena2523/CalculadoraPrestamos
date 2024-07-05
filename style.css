@@ -148,6 +148,30 @@ h3{
 }
 
 
+.montoInput::-webkit-outer-spin-button,
+.montoInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+.montoInput{
+    -moz-appearance: textfield;
+}
+
+
+.inputDatos::-webkit-outer-spin-button,
+.inputDatos::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inputDatos{
+    -moz-appearance: textfield;
+}
+
+
+
 @media (max-width: 600px) {
     .contenedor {
        display: contents;
